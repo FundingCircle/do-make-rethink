@@ -4,6 +4,8 @@ A Clojure library for making RethinkDB databases.
 
 ## Usage
 
+[![Clojars Project](http://clojars.org/do-make-rethink/latest-version.svg)](http://clojars.org/do-make-rethink)
+
 ```clojure
 (require '[do-make-rethink.core :as mr])
 (require '[rethinkdb.query :as r])
