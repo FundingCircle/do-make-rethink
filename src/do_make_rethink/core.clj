@@ -16,18 +16,18 @@
   (-> (r/table-list)
       (r/run conn)))
 
-(defn- db-exists? [conn db-name]
+(defn db-exists? [conn db-name]
   (let [db-names (list-dbs conn)]
     (has-item? (name db-name) db-names)))
 
-(defn- table-exists? [conn db-name table-name]
+(defn table-exists? [conn db-name table-name]
   (let [tables (-> (r/db db-name)
                    (r/table-list)
                    (r/run conn))]
     (has-item? (name table-name)
                tables)))
 
-(defn- index-exists? [conn db-name table-name index-name]
+(defn index-exists? [conn db-name table-name index-name]
   (let [indexes (-> (r/db db-name)
                     (r/table table-name)
                     (r/index-list)
