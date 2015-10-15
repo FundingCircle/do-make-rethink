@@ -1,6 +1,8 @@
 # Do Make Rethink
 
-A Clojure library for making RethinkDB databases.
+[![Circle CI](https://circleci.com/gh/FundingCircle/do-make-rethink.svg?style=svg)](https://circleci.com/gh/FundingCircle/do-make-rethink)
+
+A Clojure library for making [RethinkDB](https://rethinkdb.com/) databases.
 
 ## Usage
 
