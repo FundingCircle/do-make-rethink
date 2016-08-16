@@ -1,4 +1,4 @@
-(defproject do-make-rethink "0.1.0"
+(defproject do-make-rethink "0.2.0"
   :description "A Clojure library for making RethinkDB databases"
   :url "https://github.com/FundingCircle/do-make-rethink"
   :license {:name "BSD 3-clause"
