@@ -1,6 +1,6 @@
 (ns do-make-rethink.core
   (:require [rethinkdb.query :as r]
-            [taoensso.timbre :as log]
+            [clojure.tools.logging :as log]
             [clojure.string :as s]))
 
 (def ^:private any? (comp boolean some))
