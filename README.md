@@ -6,7 +6,8 @@ A Clojure library for making [RethinkDB](https://rethinkdb.com/) databases.
 
 ## Usage
 
-[![Clojars Project](http://clojars.org/do-make-rethink/latest-version.svg)](http://clojars.org/do-make-rethink)
+
+[![Clojars Project](https://img.shields.io/clojars/v/org.fundingcircle/do-make-rethink.svg)](https://clojars.org/org.fundingcircle/do-make-rethink)
 
 ```clojure
 (require '[do-make-rethink.core :as mr])
